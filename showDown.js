@@ -51,10 +51,10 @@ const fight = () => {
     }
 
     if (heroHealth <= 0 && villainHealth <= 0) {
-        alert(`It's a draw!`)
+        alert(`It's a draw!`);
         winner.innerText = `<< The hero ${hero} and the villain ${villain} have killed eachother in battle! >>`
     } else if (villainHealth <= 0) {
-        alert(`${hero} the hero won!`)
+        alert(`${hero} the hero won!`);
         winner.innerText = `<< ${hero} won! The world is saved >>`
     } else if (heroHealth <= 0) {
         alert(`${villain} the villain won!`);
